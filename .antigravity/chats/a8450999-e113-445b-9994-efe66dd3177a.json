@@ -3,6 +3,31 @@
   "name": "Build a landing page for my",
   "createdAt": "2026-10-18T20:26:53.412Z",
   "filename": "a8450999-e113-445b-9994-efe66dd3177a.json",
-  "geminiStarted": false,
-  "messages": []
+  "geminiStarted": true,
+  "messages": [
+    {
+      "id": "9d7dc77b-5983-4548-82d5-91b81078e136",
+      "role": "user",
+      "content": "中文对话测试",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-10-18T20:30:41.767Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "524e76fc-20e0-48c3-ba50-b4d3e52c0c01",
+      "role": "agent",
+      "content": "你好！中文对话测试正常。请问有什么我可以帮您的？无论是创建新项目、编写代码、调整页面还是解答疑问，都可以随时告诉我！",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "9d7dc77b-5983-4548-82d5-91b81078e136",
+      "created_at": "2026-10-18T20:30:47.396Z",
+      "sender": "macOS",
+      "is_cancelled": false
+    }
+  ]
 }
